@@ -23,7 +23,7 @@ public class AppTest
 {
 	WebDriver driver; 
 	WebDriverWait wait; 
-	String url = "http://192.168.50.44";
+	String url = "http://192.168.50.44/";
 	String validEmail = "user@example.com";
 	String validPassword = "password1234";
 	String invalidEmail = "none@example.com";
@@ -84,7 +84,3 @@ public class AppTest
 	}
 
 }
-
-
-
-curl http://mirrors.estointernet.in/apache/maven/maven-3/3.6.3/binaries/apache-maven-3.6.3-bin.tar.gz --output apache-maven-3.6.3-bin.tar.gz
